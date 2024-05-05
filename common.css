@@ -1,0 +1,68 @@
+/* common.css */
+.container {
+    max-width: 1400px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 70px;
+}
+.navbar {
+    text-align: left;
+    background-color: #e75757f6; /* Cream background color for the navigation bar */
+    padding: 10px ;
+    border: 2px solid #f6f4f4; 
+    padding: 10px;
+    border-radius: 30px;
+    margin:20px;
+    text-shadow: 2px 4px 5px #000;
+}
+.navbar a {
+   
+    font-family:'Gill Sans', sans-serif;
+    margin: 20px;
+    color: #f1efef;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 45px;
+    font-family: "JetBrains Mono, monospace";
+    text-shadow: 2px 6px 5px #000;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:#43939e;
+    background-attachment: fixed;
+    padding: 0;
+    background: rgb(154, 202, 221);
+    background-size: cover;
+
+}
+
+.header {
+    text-align: center;
+    color: #333;
+    margin: 0;
+    max-width: auto;
+    padding: 0;
+    position: relative;
+}
+.header-text {
+    position: absolute;
+    top: 50%; /* Position text vertically in the middle of the header */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header img {
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 1400px;
+    height: 200px;
+    opacity: 87%;
+}
+
+/* Add more common styles here */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: #70b4c0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: auto;
+            margin: 0 auto;
+            padding: 20px;
+            margin-top: 20px;
+            font-family: 'Times New Roman';
+            background-color: rgba(137, 235, 235, 0.5);
+        }
+        h2 {
+            text-align: center;
+        }
+        form {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        input[type="submit"] {
+            background-color: #129156;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #b85151;
+        }
+        .home-link {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #2c3edf;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="INDIAN RECIPES.jpg" alt="Header Image"> <!-- Replace with the actual image file name and path -->
+        <div class="header-text">
+            <h1>INDIAN RECIPES</h1>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="index.html">HOME </a>
+        <a href="about.html">ABOUT</a>
+        <a href="index.html">PREV</a>
+    </div>
+    <div class="container">
+        <h2>"We greatly appreciate your feedback; it helps us serve you better."</h2>
+        <h3><b>Your Feedback:</b></h3>
+        <form action="thankyou.html">
+            <label for="feedback"></label>
+            <textarea id="feedback" name="feedback" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <a class="home-link" href="index.html">Back to Home</a>
+    </div>
+    
+</body>
+</html>

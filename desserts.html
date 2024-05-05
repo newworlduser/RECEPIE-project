@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List of Desserts</title>
+     <link rel="stylesheet" type="text/css" href="common.css">
+    <style>
+        .dish-list {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.5); /* Cream background color with opacity for the dish list */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .dish-item {
+            display: flex;
+            font-size: larger;
+            align-items: center;
+            margin-bottom: 10px;
+            border: 2px solid #020202; /* Dark red border for each recipe */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .dish-name {
+            flex-grow: 1;
+            color: #000000; /* Dark red text color for dish names */
+        }
+        .view-recipe-button {
+            padding: 5px 15px;
+            background-color: #79ce33; /* Dark red button background color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 2px 6px 5px #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="INDIAN RECIPES.jpg" alt="Header Image"> <!-- Replace with the actual image file name and path -->
+        <div class="header-text">
+            <h1>INDIAN RECIPES</h1>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="index.html">PREV</a>
+    </div>
+    <div class="container">
+        <h2>DESSERTS</h2>
+        <p><i>"Desserts: A sweet finale to every meal, where joy is served one bite at a time."</i></p>
+        <div class="dish-list">
+            <div class="dish-item">
+                <img src="gajarkahalwa.jpg" alt="gajarkahalwa" height="100px" width="100px"  style="margin-right: 10px;">
+                <span class="dish-name">GAJAR KA HALWA</span>
+                <a class="view-recipe-button" href="gajarkahalwa.html">View Recipe</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
